@@ -31,6 +31,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -73,27 +76,117 @@ li{
 }
 
 .column {
-  -webkit-flex: 1;
-  -ms-flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
   flex: 1;
   padding: 10px;
   height: 625px;
+  background: #fff !important;
+  color: #232946;
+}
+
+.category-box {
+  background: #222b45;
+  border-radius: 16px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.category-box h2 {
+  margin-bottom: 30px;
+  color: #eaeaea;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.category-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #1E3A8A;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background 0.2s;
+  margin-top: auto;
+}
+
+.category-btn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
-    background: #2c3e80;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  background-color: #1E3A8A;
 }
 
-a:link{
-  color:white;
+.leaderboard-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 40px 0 32px 0;
+}
+
+.leaderboard-btn {
+  width: 80vw;
+  max-width: 900px;
+  padding: 32px 0;
+  background: #1E3A8A; /* Same color as footer and header */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3em;
+  transition: background 0.2s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  text-align: center;
+}
+
+.leaderboard-btn:hover {
+  background: #2563eb;
+  color: #fff;
 }
 
 @media (max-width: 800px) {
   .row {
-    -webkit-flex-direction: column;
     flex-direction: column;
+    height: auto;
+  }
+  .column {
+    height: auto;
+    min-height: 250px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 10px 0;
   }
 }
