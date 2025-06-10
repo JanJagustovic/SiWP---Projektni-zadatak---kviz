@@ -81,19 +81,21 @@ li{
   align-items: center;   
   flex: 1;
   padding: 10px;
-  height: 625px;
+  height: 475px;
   background: #fff !important;
   color: #232946;
 }
 
 .category-box {
-  background: #222b45;
+  background: #1E3A8A;
   border-radius: 16px;
-  padding: 40px 20px;
+  padding: 35%;
   margin: 0 auto;
   width: 250px;
   height: 250px;
   min-height: 200px;
+  margin-top: 150px;
+  margin-bottom:75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,24 +109,21 @@ li{
   letter-spacing: 1px;
 }
 
-.category-btn {
-  display: inline-block;
-  padding: 12px 28px;
-  background: #1E3A8A;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
+.category-box-link {
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1em;
-  transition: background 0.2s;
-  margin-top: auto;
+  display: inline-block;
+  margin: 0 auto;
 }
 
-.category-btn:hover {
-  background: #2563eb;
-  color: #fff;
+.category-box-link .category-box {
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
+
+.category-box-link .category-box:hover {
+  transform: scale(1.05);
+}
+
 
 html, body {
   height: 100%;
@@ -141,6 +140,44 @@ html, body {
   background-color: #1E3A8A;
 }
 
+.leaderboard-box {
+  background: #1E3A8A;
+  border-radius: 16px;
+  padding: 8%;
+  margin: 0 auto;
+  margin-top:75px;
+  margin-bottom:150px;
+  width: 85vw;
+  height: 150px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.lederboard-box h2 {
+  margin-bottom: 30px;
+  color: #eaeaea;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.leaderboard-box-link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.leaderboard-box-link .leaderboard-box {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.leaderboard-box-link .leaderboard-box:hover {
+  transform: scale(1.05);
+}
+/*
 .leaderboard-btn-container {
   display: flex;
   justify-content: center;
@@ -153,7 +190,7 @@ html, body {
   width: 80vw;
   max-width: 900px;
   padding: 32px 0;
-  background: #1E3A8A; /* Same color as footer and header */
+  background: #1E3A8A;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -169,8 +206,8 @@ html, body {
   background: #2563eb;
   color: #fff;
 }
-
-@media (max-width: 800px) {
+*/
+@media (max-width: 850px) {
   .row {
     flex-direction: column;
     height: auto;
