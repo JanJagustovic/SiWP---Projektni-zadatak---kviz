@@ -227,3 +227,24 @@ html, body {
     margin: 10px 0;
   }
 }
+
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  min-width: 320px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 32px 24px;
+  max-width: 420px;
+}
+
+.prikaziKraj{
+  font-size:1.2em;
+  font-weight:bold;
+  margin-top:16px;
+}
