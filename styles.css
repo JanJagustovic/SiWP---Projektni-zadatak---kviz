@@ -324,7 +324,9 @@ html, body {
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.10);
   padding: 15px;
+  max-width:320px;
 }
 .desniLead h2{
   color: #DC2626;
+  text-align:center;
 }
