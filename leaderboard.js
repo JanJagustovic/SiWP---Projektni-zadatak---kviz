@@ -50,7 +50,7 @@ window.onload = function() {
     }
     data.sort((a, b) => b.score - a.score);
     return `
-      <h2 style="text-align:center; color:#DC2626; font-family: 'Montserrat', sans-serif;">${title}</h2>
+      <h2>${title}</h2>
       <table>
         <tr><th>Username</th><th>Score</th></tr>
         ${data.map(e =>
