@@ -1,253 +1,238 @@
 const sportPitanje = [
   {
-    pitanje: "Which country won the FIFA World Cup in 2018?",
-    odg: ["Brazil", "Germany", "France", "Argentina"],
-    tocno: 2
-  },
-  {
-    pitanje: "How many players are there in a basketball team on the court?",
-    odg: ["5", "6", "7", "11"],
+    pitanje: "Who directed the movie 'Inception'?",
+    odg: ["Christopher Nolan", "Steven Spielberg", "James Cameron", "Quentin Tarantino"],
     tocno: 0
   },
   {
-    pitanje: "Who holds the record for the most Grand Slam tennis titles (men's singles)?",
-    odg: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
-    tocno: 2
+    pitanje: "Which movie features a character named Jack Dawson?",
+    odg: ["Titanic", "The Great Gatsby", "Inception", "The Notebook"],
+    tocno: 0
   },
   {
-    pitanje: "Who is the NBA’s all-time leading scorer?",
-    odg: ["Wilt Chamberlain", "Kareem Abdul-Jabbar", "Michael Jordan", "LeBron James"],
+    pitanje: "Which actor played the Joker in 'The Dark Knight' (2008)?",
+    odg: ["Joaquin Phoenix", "Heath Ledger", "Jared Leto", "Jack Nicholson"],
     tocno: 1
   },
   {
-    pitanje: "Which swimmer has won the most Olympic gold medals?",
-    odg: ["Mark Spitz", "Ian Thorpe", "Katie Ledecky", "Michael Phelps"],
+    pitanje: "In which year was the original 'Jurassic Park' released?",
+    odg: ["1990", "1993", "1996", "1999"],
+    tocno: 1
+  },
+  {
+    pitanje: "What is the name of the hobbit played by Elijah Wood?",
+    odg: ["Bilbo Baggins", "Samwise Gamgee", "Frodo Baggins", "Pippin Took"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which movie won Best Picture at the 2020 Oscars?",
+    odg: ["Joker", "1917", "Parasite", "Once Upon a Time in Hollywood"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which actress played Katniss Everdeen in 'The Hunger Games'?",
+    odg: ["Emma Watson", "Jennifer Lawrence", "Kristen Stewart", "Scarlett Johansson"],
+    tocno: 1
+  },
+  {
+    pitanje: "What’s the highest-grossing film of all time (as of 2024)?",
+    odg: ["Avatar", "Avengers: Endgame", "Titanic", "The Lion King"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which film series features a character named Dominic Toretto?",
+    odg: ["Mission: Impossible", "The Fast and the Furious", "Transformers", "John Wick"],
+    tocno: 1
+  },
+  {
+    pitanje: "Who directed 'Pulp Fiction'?",
+    odg: ["Martin Scorsese", "Quentin Tarantino", "Francis Ford Coppola", "Ridley Scott"],
+    tocno: 1
+  },
+  {
+    pitanje: "Who directed the movie 'Gladiator'?",
+    odg: ["James Cameron", "Ridley Scott", "Peter Jackson", "Steven Spielberg"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which actor starred in the movie 'Forrest Gump'?",
+    odg: ["Morgan Freeman", "Tom Hanks", "Leonardo DiCaprio", "Brad Pitt"],
+    tocno: 1
+  },
+  {
+    pitanje: "In which year was the movie 'Interstellar' released?",
+    odg: ["2003", "2014", "1994", "2010"],
+    tocno: 1
+  },
+  {
+    pitanje: "Who directed the movie 'Forrest Gump'?",
+    odg: ["James Cameron", "Robert Zemeckis", "Martin Scorsese", "Steven Spielberg"],
+    tocno: 1
+  },
+  {
+    pitanje: "Who directed the movie 'Interstellar'?",
+    odg: ["Peter Jackson", "Christopher Nolan", "James Cameron", "Ridley Scott"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which actor starred in the movie 'Gladiator'?",
+    odg: ["Brad Pitt", "Russell Crowe", "Robert De Niro", "Tom Hanks"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which actor starred in the movie 'The Godfather'?",
+    odg: ["Tom Hanks", "Robert De Niro", "Marlon Brando", "Al Pacino"],
     tocno: 3
   },
   {
-    pitanje: "In which sport is the Ryder Cup contested?",
-    odg: ["Tennis", "Cricket", "Golf", "Rugby"],
+    pitanje: "Which actor starred in the movie 'The Shawshank Redemption'?",
+    odg: ["Brad Pitt", "Morgan Freeman", "Robert De Niro", "Tom Hanks"],
+    tocno: 1
+  },
+  {
+    pitanje: "Who directed the movie 'The Godfather'?",
+    odg: ["Francis Ford Coppola", "Martin Scorsese", "Peter Jackson", "James Cameron"],
+    tocno: 0
+  },
+  {
+    pitanje: "In which year was the movie 'The Shawshank Redemption' released?",
+    odg: ["1994", "2014", "1997", "2001"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which actor starred in the movie 'Fight Club'?",
+    odg: ["Edward Norton", "Brad Pitt", "Jared Leto", "Johnny Depp"],
+    tocno: 1
+  },
+  {
+    pitanje: "Who directed the movie 'Fight Club'?",
+    odg: ["David Fincher", "James Cameron", "Steven Spielberg", "Martin Scorsese"],
+    tocno: 0
+  },
+  {
+    pitanje: "In which year was the movie 'Fight Club' released?",
+    odg: ["1999", "1995", "2003", "2010"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which actor played Neo in 'The Matrix'?",
+    odg: ["Keanu Reeves", "Brad Pitt", "Johnny Depp", "Matt Damon"],
+    tocno: 0
+  },
+  {
+    pitanje: "Who directed the 'Lord of the Rings' trilogy?",
+    odg: ["Peter Jackson", "James Cameron", "George Lucas", "Steven Spielberg"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which movie features the quote 'Here's looking at you, kid'?",
+    odg: ["Casablanca", "Gone with the Wind", "The Godfather", "Titanic"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which movie features the character Andy Dufresne?",
+    odg: ["The Green Mile", "The Shawshank Redemption", "Forrest Gump", "Cast Away"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which actor played Forrest Gump?",
+    odg: ["Tom Hanks", "Robin Williams", "Matt Damon", "Kevin Spacey"],
+    tocno: 0
+  },
+  {
+    pitanje: "What is the name of the fictional African country in 'Black Panther'?",
+    odg: ["Wakanda", "Zamunda", "Genosha", "Latveria"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which movie has the line 'I see dead people'?",
+    odg: ["The Sixth Sense", "The Others", "Insidious", "The Ring"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which film did Leonardo DiCaprio finally win an Oscar for?",
+    odg: ["The Revenant", "Titanic", "Inception", "The Wolf of Wall Street"],
+    tocno: 0
+  },
+  {
+    pitanje: "Who played Iron Man in the Marvel Cinematic Universe?",
+    odg: ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
     tocno: 2
   },
   {
-    pitanje: "Which boxer was known as 'The Greatest' and 'The People's Champion'?",
-    odg: ["Joe Frazier", "Muhammad Ali", "Mike Tyson", "George Foreman"],
+    pitanje: "Which movie is famous for the quote 'Why so serious?'",
+    odg: ["The Dark Knight", "Joker", "Batman Begins", "Suicide Squad"],
+    tocno: 0
+  },
+  {
+    pitanje: "What kind of creature is Shrek?",
+    odg: ["Ogre", "Troll", "Goblin", "Giant"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which 1999 sci-fi film was directed by the Wachowskis?",
+    odg: ["The Matrix", "Dark City", "Equilibrium", "Minority Report"],
+    tocno: 0
+  },
+  {
+    pitanje: "Who voices Woody in the 'Toy Story' movies?",
+    odg: ["Tim Allen", "Tom Hanks", "Billy Crystal", "Robin Williams"],
     tocno: 1
   },
   {
-    pitanje: "Which country has won the most Rugby World Cup titles?",
-    odg: ["England", "New Zealand", "South Africa", "Australia"],
-    tocno: 1
+    pitanje: "Which movie involves dreams within dreams?",
+    odg: ["Inception", "Shutter Island", "The Matrix", "Fight Club"],
+    tocno: 0
   },
   {
-    pitanje: "Who holds the NFL record for career passing yards?",
-    odg: ["Tom Brady", "Drew Brees", "Peyton Manning", "Brett Favre"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which tennis player won the Golden Slam in 1988?",
-    odg: ["Serena Williams", "Steffi Graf", "Martina Navratilova", "Chris Evert"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country hosts the Monaco Grand Prix?",
-    odg: ["France", "Italy", "Monaco", "Spain"],
+    pitanje: "What’s the name of Harry Potter’s owl?",
+    odg: ["Errol", "Pigwidgeon", "Hedwig", "Crookshanks"],
     tocno: 2
   },
   {
-    pitanje: "Who is the all-time top scorer for FC Barcelona?",
-    odg: ["Ronaldinho", "Lionel Messi", "Luis Suárez", "Samuel Eto'o"],
+    pitanje: "Which actress played Black Widow?",
+    odg: ["Gal Gadot", "Scarlett Johansson", "Natalie Portman", "Anne Hathaway"],
     tocno: 1
   },
   {
-    pitanje: "Which athlete lit the Olympic flame at the 2008 Beijing opening ceremony?",
-    odg: ["Michael Phelps", "Li Ning", "Usain Bolt", "Haile Gebrselassie"],
+    pitanje: "Who directed 'Avatar'?",
+    odg: ["James Cameron", "Steven Spielberg", "Christopher Nolan", "Peter Jackson"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which film is set in a post-apocalyptic desert world?",
+    odg: ["Mad Max: Fury Road", "Blade Runner", "The Book of Eli", "The Road"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which 2019 movie is a South Korean social thriller?",
+    odg: ["Train to Busan", "Parasite", "Oldboy", "Burning"],
     tocno: 1
   },
   {
-    pitanje: "In which city were the first modern Olympic Games held in 1896?",
-    odg: ["Paris", "Athens", "London", "Rome"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the first FIFA Women’s World Cup in 1991?",
-    odg: ["USA", "Norway", "China", "Germany"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the Major League Baseball record for career home runs?",
-    odg: ["Barry Bonds", "Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which NFL team has the most Super Bowl wins?",
-    odg: ["Pittsburgh Steelers", "New England Patriots", "Dallas Cowboys", "San Francisco 49ers"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who won the men’s singles gold medal in tennis at the 2016 Rio Olympics?",
-    odg: ["Andy Murray", "Novak Djokovic", "Roger Federer", "Rafael Nadal"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which country won the UEFA European Championship in 2020 (played in 2021)?",
-    odg: ["Italy", "England", "Spain", "Germany"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who was the first gymnast to score a perfect 10 in the Olympics?",
-    odg: ["Olga Korbut", "Nadia Comăneci", "Mary Lou Retton", "Larisa Latynina"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which sport uses the terms 'stale fish' and '360 spin'?",
-    odg: ["Snowboarding", "Skateboarding", "Surfing", "Wakeboarding"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the first Cricket World Cup in 1975?",
-    odg: ["Australia", "England", "West Indies", "India"],
+    pitanje: "Which film franchise features a ring that must be destroyed?",
+    odg: ["Harry Potter", "The Hobbit", "Lord of the Rings", "Game of Thrones"],
     tocno: 2
   },
   {
-    pitanje: "Who has the most Formula 1 World Championships?",
-    odg: ["Michael Schumacher", "Lewis Hamilton", "Sebastian Vettel", "Ayrton Senna"],
+    pitanje: "Which Pixar movie features a cooking rat?",
+    odg: ["Ratatouille", "Bolt", "Zootopia", "Up"],
+    tocno: 0
+  },
+  {
+    pitanje: "What is the name of the cowboy in Toy Story?",
+    odg: ["Buzz", "Woody", "Andy", "Jessie"],
     tocno: 1
   },
   {
-    pitanje: "Which NBA team drafted Kobe Bryant in 1996?",
-    odg: ["Los Angeles Lakers", "Charlotte Hornets", "Philadelphia 76ers", "Chicago Bulls"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the men’s ice hockey gold medal at the 2010 Vancouver Olympics?",
-    odg: ["Canada", "USA", "Russia", "Sweden"],
+    pitanje: "Who directed 'The Grand Budapest Hotel'?",
+    odg: ["Wes Anderson", "Quentin Tarantino", "Tim Burton", "Martin Scorsese"],
     tocno: 0
   },
   {
-    pitanje: "Who holds the women’s world record in the marathon?",
-    odg: ["Paula Radcliffe", "Mary Keitany", "Brigid Kosgei", "Ruth Chepngetich"],
-    tocno: 2
-  },
-  {
-    pitanje: "In which sport is the Davis Cup contested?",
-    odg: ["Badminton", "Tennis", "Table Tennis", "Squash"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country has won the most Olympic gold medals overall?",
-    odg: ["Russia", "China", "USA", "Germany"],
-    tocno: 2
-  },
-  {
-    pitanje: "Who won the 2024 UEFA Champions League?",
-    odg: ["Manchester City", "Real Madrid", "Bayern Munich", "Liverpool"],
+    pitanje: "Which movie has the line 'Life is like a box of chocolates'?",
+    odg: ["Forrest Gump", "Cast Away", "Big", "The Terminal"],
     tocno: 0
-  },
-  {
-    pitanje: "Which boxer was known for the 'Rumble in the Jungle' fight?",
-    odg: ["Muhammad Ali", "George Foreman", "Joe Frazier", "Evander Holyfield"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the NHL record for most career goals?",
-    odg: ["Wayne Gretzky", "Gordie Howe", "Alex Ovechkin", "Brett Hull"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which country won the FIFA Women’s World Cup in 2019?",
-    odg: ["USA", "Netherlands", "Sweden", "Japan"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who is the all-time leading scorer in UEFA European Championship history?",
-    odg: ["Cristiano Ronaldo", "Michel Platini", "Alan Shearer", "Wayne Rooney"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which golf tournament is known as 'The Masters'?",
-    odg: ["PGA Championship", "US Open", "The Open Championship", "The Masters Tournament"],
-    tocno: 3
-  },
-  {
-    pitanje: "Which country hosted the 2014 Winter Olympics?",
-    odg: ["Canada", "Russia", "Japan", "South Korea"],
-    tocno: 1
-  },
-  {
-    pitanje: "Who was the first woman to win an IndyCar race?",
-    odg: ["Danica Patrick", "Sarah Fisher", "Simona de Silvestro", "Milka Duno"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which team won the MLB World Series in 2020?",
-    odg: ["Los Angeles Dodgers", "Tampa Bay Rays", "Houston Astros", "Atlanta Braves"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the NBA record for most career triple-doubles?",
-    odg: ["Oscar Robertson", "Russell Westbrook", "Magic Johnson", "LeBron James"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the men’s volleyball gold medal at the 2020 Tokyo Olympics?",
-    odg: ["Brazil", "France", "Russia", "Poland"],
-    tocno: 1
-  },
-  {
-    pitanje: "Who was nicknamed 'The Iron Horse' in baseball?",
-    odg: ["Babe Ruth", "Lou Gehrig", "Joe DiMaggio", "Ty Cobb"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which city hosted the Summer Olympics in 2012?",
-    odg: ["Beijing", "London", "Rio de Janeiro", "Tokyo"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the Cricket T20 World Cup in 2021?",
-    odg: ["England", "Australia", "West Indies", "India"],
-    tocno: 2
-  },
-  {
-    pitanje: "Who holds the record for most goals in a single NHL season?",
-    odg: ["Wayne Gretzky", "Mario Lemieux", "Brett Hull", "Alex Ovechkin"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which tennis Grand Slam is played on clay courts?",
-    odg: ["Wimbledon", "US Open", "French Open", "Australian Open"],
-    tocno: 2
-  },
-  {
-    pitanje: "Who won the men’s 100m gold medal at the 2016 Rio Olympics?",
-    odg: ["Usain Bolt", "Justin Gatlin", "Yohan Blake", "Andre De Grasse"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which country won the Rugby League World Cup in 2017?",
-    odg: ["Australia", "England", "New Zealand", "Fiji"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the record for the most PGA Tour wins?",
-    odg: ["Jack Nicklaus", "Tiger Woods", "Sam Snead", "Arnold Palmer"],
-    tocno: 2
-  },
-  {
-    pitanje: "Which basketball player is known as 'The Mailman'?",
-    odg: ["Karl Malone", "John Stockton", "Charles Barkley", "Scottie Pippen"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which country won the FIFA U-17 World Cup in 2019?",
-    odg: ["Brazil", "Mexico", "USA", "France"],
-    tocno: 3
-  },
-  {
-    pitanje: "Which Formula 1 team won the constructors’ championship in 2021?",
-    odg: ["Mercedes", "Red Bull Racing", "Ferrari", "McLaren"],
-    tocno: 1
   }
 ];
 
@@ -273,7 +258,7 @@ function prikaziPitanje(index) {
   const q = sportPitanje[index];
   const container = document.getElementById('quiz-container');
   container.innerHTML = `
-  <h1 style="color:#22C55E">SPORT</h1>
+  <h1 style="color:#F59E0B">FILM</h1>
     <h2>${q.pitanje}</h2>
     <ul style="list-style:none; padding:0;">
       ${q.odg.map((ans, i) => 
@@ -334,9 +319,9 @@ function prikaziKraj() {
   container.innerHTML = `<h2>Quiz finished!</h2>
     <div class="prikaziKraj">Your score: ${bodovi}/10</div>`;
 
-  let leaderboard = JSON.parse(localStorage.getItem('leaderboard_sport')) || [];
+  let leaderboard = JSON.parse(localStorage.getItem('leaderboard_film')) || [];
   leaderboard.push({ username, score: bodovi, total: 10});
-  localStorage.setItem('leaderboard_sport', JSON.stringify(leaderboard));
+  localStorage.setItem('leaderboard_film', JSON.stringify(leaderboard));
 
   setTimeout(() => {
     window.location.href = 'leaderboard.html';

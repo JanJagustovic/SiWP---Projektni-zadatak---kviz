@@ -1,253 +1,253 @@
 const sportPitanje = [
   {
-    pitanje: "Which country won the FIFA World Cup in 2018?",
-    odg: ["Brazil", "Germany", "France", "Argentina"],
+    pitanje: "What is the capital city of Australia?",
+    odg: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
     tocno: 2
   },
   {
-    pitanje: "How many players are there in a basketball team on the court?",
-    odg: ["5", "6", "7", "11"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the record for the most Grand Slam tennis titles (men's singles)?",
-    odg: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
-    tocno: 2
-  },
-  {
-    pitanje: "Who is the NBA’s all-time leading scorer?",
-    odg: ["Wilt Chamberlain", "Kareem Abdul-Jabbar", "Michael Jordan", "LeBron James"],
+    pitanje: "Which planet is known as the Red Planet?",
+    odg: ["Venus", "Mars", "Jupiter", "Mercury"],
     tocno: 1
   },
   {
-    pitanje: "Which swimmer has won the most Olympic gold medals?",
-    odg: ["Mark Spitz", "Ian Thorpe", "Katie Ledecky", "Michael Phelps"],
+    pitanje: "Who wrote the play 'Romeo and Juliet'?",
+    odg: ["Charles Dickens", "William Shakespeare", "Leo Tolstoy", "Mark Twain"],
+    tocno: 1
+  },
+  {
+    pitanje: "What is the largest mammal in the world?",
+    odg: ["Elephant", "Blue Whale", "Giraffe", "Orca"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which element has the chemical symbol 'O'?",
+    odg: ["Oxygen", "Gold", "Osmium", "Iron"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which continent is the Sahara Desert located on?",
+    odg: ["Asia", "Australia", "Africa", "South America"],
+    tocno: 2
+  },
+  {
+    pitanje: "How many continents are there on Earth?",
+    odg: ["5", "6", "7", "8"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which country is famous for the Eiffel Tower?",
+    odg: ["Italy", "Germany", "France", "Spain"],
+    tocno: 2
+  },
+  {
+    pitanje: "What is the smallest prime number?",
+    odg: ["0", "1", "2", "3"],
+    tocno: 2
+  },
+  {
+    pitanje: "What is H2O more commonly known as?",
+    odg: ["Oxygen", "Hydrogen", "Water", "Salt"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which country gifted the Statue of Liberty to the USA?",
+    odg: ["Germany", "France", "Canada", "UK"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which ocean is the largest?",
+    odg: ["Atlantic", "Indian", "Arctic", "Pacific"],
     tocno: 3
   },
   {
-    pitanje: "In which sport is the Ryder Cup contested?",
-    odg: ["Tennis", "Cricket", "Golf", "Rugby"],
+    pitanje: "How many degrees are in a right angle?",
+    odg: ["45", "90", "180", "360"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which instrument has keys, pedals, and strings?",
+    odg: ["Guitar", "Violin", "Piano", "Drums"],
     tocno: 2
   },
   {
-    pitanje: "Which boxer was known as 'The Greatest' and 'The People's Champion'?",
-    odg: ["Joe Frazier", "Muhammad Ali", "Mike Tyson", "George Foreman"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country has won the most Rugby World Cup titles?",
-    odg: ["England", "New Zealand", "South Africa", "Australia"],
-    tocno: 1
-  },
-  {
-    pitanje: "Who holds the NFL record for career passing yards?",
-    odg: ["Tom Brady", "Drew Brees", "Peyton Manning", "Brett Favre"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which tennis player won the Golden Slam in 1988?",
-    odg: ["Serena Williams", "Steffi Graf", "Martina Navratilova", "Chris Evert"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country hosts the Monaco Grand Prix?",
-    odg: ["France", "Italy", "Monaco", "Spain"],
+    pitanje: "What is the hardest natural substance on Earth?",
+    odg: ["Iron", "Gold", "Diamond", "Quartz"],
     tocno: 2
   },
   {
-    pitanje: "Who is the all-time top scorer for FC Barcelona?",
-    odg: ["Ronaldinho", "Lionel Messi", "Luis Suárez", "Samuel Eto'o"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which athlete lit the Olympic flame at the 2008 Beijing opening ceremony?",
-    odg: ["Michael Phelps", "Li Ning", "Usain Bolt", "Haile Gebrselassie"],
-    tocno: 1
-  },
-  {
-    pitanje: "In which city were the first modern Olympic Games held in 1896?",
-    odg: ["Paris", "Athens", "London", "Rome"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the first FIFA Women’s World Cup in 1991?",
-    odg: ["USA", "Norway", "China", "Germany"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the Major League Baseball record for career home runs?",
-    odg: ["Barry Bonds", "Hank Aaron", "Babe Ruth", "Alex Rodriguez"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which NFL team has the most Super Bowl wins?",
-    odg: ["Pittsburgh Steelers", "New England Patriots", "Dallas Cowboys", "San Francisco 49ers"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who won the men’s singles gold medal in tennis at the 2016 Rio Olympics?",
-    odg: ["Andy Murray", "Novak Djokovic", "Roger Federer", "Rafael Nadal"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which country won the UEFA European Championship in 2020 (played in 2021)?",
-    odg: ["Italy", "England", "Spain", "Germany"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who was the first gymnast to score a perfect 10 in the Olympics?",
-    odg: ["Olga Korbut", "Nadia Comăneci", "Mary Lou Retton", "Larisa Latynina"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which sport uses the terms 'stale fish' and '360 spin'?",
-    odg: ["Snowboarding", "Skateboarding", "Surfing", "Wakeboarding"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the first Cricket World Cup in 1975?",
-    odg: ["Australia", "England", "West Indies", "India"],
+    pitanje: "How many colors are there in a rainbow?",
+    odg: ["5", "6", "7", "8"],
     tocno: 2
   },
   {
-    pitanje: "Who has the most Formula 1 World Championships?",
-    odg: ["Michael Schumacher", "Lewis Hamilton", "Sebastian Vettel", "Ayrton Senna"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which NBA team drafted Kobe Bryant in 1996?",
-    odg: ["Los Angeles Lakers", "Charlotte Hornets", "Philadelphia 76ers", "Chicago Bulls"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the men’s ice hockey gold medal at the 2010 Vancouver Olympics?",
-    odg: ["Canada", "USA", "Russia", "Sweden"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the women’s world record in the marathon?",
-    odg: ["Paula Radcliffe", "Mary Keitany", "Brigid Kosgei", "Ruth Chepngetich"],
-    tocno: 2
-  },
-  {
-    pitanje: "In which sport is the Davis Cup contested?",
-    odg: ["Badminton", "Tennis", "Table Tennis", "Squash"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country has won the most Olympic gold medals overall?",
-    odg: ["Russia", "China", "USA", "Germany"],
-    tocno: 2
-  },
-  {
-    pitanje: "Who won the 2024 UEFA Champions League?",
-    odg: ["Manchester City", "Real Madrid", "Bayern Munich", "Liverpool"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which boxer was known for the 'Rumble in the Jungle' fight?",
-    odg: ["Muhammad Ali", "George Foreman", "Joe Frazier", "Evander Holyfield"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the NHL record for most career goals?",
-    odg: ["Wayne Gretzky", "Gordie Howe", "Alex Ovechkin", "Brett Hull"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which country won the FIFA Women’s World Cup in 2019?",
-    odg: ["USA", "Netherlands", "Sweden", "Japan"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who is the all-time leading scorer in UEFA European Championship history?",
-    odg: ["Cristiano Ronaldo", "Michel Platini", "Alan Shearer", "Wayne Rooney"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which golf tournament is known as 'The Masters'?",
-    odg: ["PGA Championship", "US Open", "The Open Championship", "The Masters Tournament"],
+    pitanje: "Who painted the Mona Lisa?",
+    odg: ["Michelangelo", "Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci"],
     tocno: 3
   },
   {
-    pitanje: "Which country hosted the 2014 Winter Olympics?",
-    odg: ["Canada", "Russia", "Japan", "South Korea"],
+    pitanje: "Which is the longest river in the world?",
+    odg: ["Amazon", "Nile", "Yangtze", "Mississippi"],
     tocno: 1
   },
   {
-    pitanje: "Who was the first woman to win an IndyCar race?",
-    odg: ["Danica Patrick", "Sarah Fisher", "Simona de Silvestro", "Milka Duno"],
-    tocno: 0
-  },
-  {
-    pitanje: "Which team won the MLB World Series in 2020?",
-    odg: ["Los Angeles Dodgers", "Tampa Bay Rays", "Houston Astros", "Atlanta Braves"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the NBA record for most career triple-doubles?",
-    odg: ["Oscar Robertson", "Russell Westbrook", "Magic Johnson", "LeBron James"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the men’s volleyball gold medal at the 2020 Tokyo Olympics?",
-    odg: ["Brazil", "France", "Russia", "Poland"],
-    tocno: 1
-  },
-  {
-    pitanje: "Who was nicknamed 'The Iron Horse' in baseball?",
-    odg: ["Babe Ruth", "Lou Gehrig", "Joe DiMaggio", "Ty Cobb"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which city hosted the Summer Olympics in 2012?",
-    odg: ["Beijing", "London", "Rio de Janeiro", "Tokyo"],
-    tocno: 1
-  },
-  {
-    pitanje: "Which country won the Cricket T20 World Cup in 2021?",
-    odg: ["England", "Australia", "West Indies", "India"],
+    pitanje: "Which is the most widely spoken language in the world?",
+    odg: ["English", "Spanish", "Mandarin Chinese", "Hindi"],
     tocno: 2
   },
   {
-    pitanje: "Who holds the record for most goals in a single NHL season?",
-    odg: ["Wayne Gretzky", "Mario Lemieux", "Brett Hull", "Alex Ovechkin"],
+    pitanje: "In which country is the Great Pyramid of Giza located?",
+    odg: ["Mexico", "Egypt", "India", "Iraq"],
+    tocno: 1
+  },
+  {
+    pitanje: "How many legs does a spider have?",
+    odg: ["6", "8", "10", "12"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which metal is liquid at room temperature?",
+    odg: ["Mercury", "Iron", "Aluminum", "Zinc"],
     tocno: 0
   },
   {
-    pitanje: "Which tennis Grand Slam is played on clay courts?",
-    odg: ["Wimbledon", "US Open", "French Open", "Australian Open"],
+    pitanje: "What gas do plants absorb from the atmosphere?",
+    odg: ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
+    tocno: 1
+  },
+  {
+    pitanje: "How many teeth does an adult human typically have?",
+    odg: ["28", "30", "32", "34"],
     tocno: 2
   },
   {
-    pitanje: "Who won the men’s 100m gold medal at the 2016 Rio Olympics?",
-    odg: ["Usain Bolt", "Justin Gatlin", "Yohan Blake", "Andre De Grasse"],
-    tocno: 0
+    pitanje: "Who discovered gravity?",
+    odg: ["Einstein", "Newton", "Galileo", "Tesla"],
+    tocno: 1
   },
   {
-    pitanje: "Which country won the Rugby League World Cup in 2017?",
-    odg: ["Australia", "England", "New Zealand", "Fiji"],
-    tocno: 0
-  },
-  {
-    pitanje: "Who holds the record for the most PGA Tour wins?",
-    odg: ["Jack Nicklaus", "Tiger Woods", "Sam Snead", "Arnold Palmer"],
+    pitanje: "Which country has the largest population?",
+    odg: ["USA", "China", "India", "Indonesia"],
     tocno: 2
   },
   {
-    pitanje: "Which basketball player is known as 'The Mailman'?",
-    odg: ["Karl Malone", "John Stockton", "Charles Barkley", "Scottie Pippen"],
+    pitanje: "How many minutes are there in a day?",
+    odg: ["1440", "1240", "1340", "1540"],
     tocno: 0
   },
   {
-    pitanje: "Which country won the FIFA U-17 World Cup in 2019?",
-    odg: ["Brazil", "Mexico", "USA", "France"],
+    pitanje: "What is the main ingredient in guacamole?",
+    odg: ["Tomato", "Avocado", "Pepper", "Onion"],
+    tocno: 1
+  },
+  {
+    pitanje: "What is the boiling point of water in Celsius?",
+    odg: ["90", "95", "100", "105"],
+    tocno: 2
+  },
+  {
+    pitanje: "How many players are there in a football (soccer) team?",
+    odg: ["9", "10", "11", "12"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which famous scientist developed the theory of relativity?",
+    odg: ["Newton", "Einstein", "Curie", "Hawking"],
+    tocno: 1
+  },
+  {
+    pitanje: "What is the largest internal organ in the human body?",
+    odg: ["Heart", "Lungs", "Liver", "Stomach"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which country is known as the Land of the Rising Sun?",
+    odg: ["South Korea", "Thailand", "China", "Japan"],
     tocno: 3
   },
   {
-    pitanje: "Which Formula 1 team won the constructors’ championship in 2021?",
-    odg: ["Mercedes", "Red Bull Racing", "Ferrari", "McLaren"],
+    pitanje: "How many bones are in the human body?",
+    odg: ["206", "201", "210", "208"],
+    tocno: 0
+  },
+  {
+    pitanje: "What do bees collect and use to make honey?",
+    odg: ["Nectar", "Pollen", "Water", "Resin"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which natural disaster is measured with the Richter scale?",
+    odg: ["Tornado", "Hurricane", "Earthquake", "Flood"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which animal is known as the King of the Jungle?",
+    odg: ["Tiger", "Lion", "Elephant", "Leopard"],
     tocno: 1
+  },
+  {
+    pitanje: "What is the chemical formula of table salt?",
+    odg: ["NaCl", "KCl", "CaCl", "HCl"],
+    tocno: 0
+  },
+  {
+    pitanje: "Which shape has three sides?",
+    odg: ["Square", "Rectangle", "Triangle", "Circle"],
+    tocno: 2
+  },
+  {
+    pitanje: "Who was the first man to walk on the Moon?",
+    odg: ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Alan Shepard"],
+    tocno: 2
+  },
+  {
+    pitanje: "What is the name of the closest star to Earth?",
+    odg: ["Alpha Centauri", "Betelgeuse", "Sirius", "The Sun"],
+    tocno: 3
+  },
+  {
+    pitanje: "What do you call a baby goat?",
+    odg: ["Foal", "Kid", "Calf", "Pup"],
+    tocno: 1
+  },
+  {
+    pitanje: "Which direction does the sun rise from?",
+    odg: ["West", "South", "East", "North"],
+    tocno: 2
+  },
+  {
+    pitanje: "What is the square root of 81?",
+    odg: ["7", "8", "9", "10"],
+    tocno: 2
+  },
+  {
+    pitanje: "How many hours are there in three days?",
+    odg: ["48", "60", "72", "84"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which bird is known for mimicking human speech?",
+    odg: ["Crow", "Owl", "Parrot", "Sparrow"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which part of the plant conducts photosynthesis?",
+    odg: ["Root", "Stem", "Leaf", "Flower"],
+    tocno: 2
+  },
+  {
+    pitanje: "Which gas is essential for humans to breathe?",
+    odg: ["Carbon Dioxide", "Oxygen", "Hydrogen", "Nitrogen"],
+    tocno: 1
+  },
+  {
+    pitanje: "How many zeros are in one million?",
+    odg: ["5", "6", "7", "8"],
+    tocno: 1
+  },
+  {
+    pitanje: "What currency is used in Japan?",
+    odg: ["Won", "Dollar", "Yen", "Peso"],
+    tocno: 2
   }
 ];
 
@@ -273,7 +273,7 @@ function prikaziPitanje(index) {
   const q = sportPitanje[index];
   const container = document.getElementById('quiz-container');
   container.innerHTML = `
-  <h1 style="color:#22C55E">SPORT</h1>
+  <h1 style="color:#6366F1">GENERAL</h1>
     <h2>${q.pitanje}</h2>
     <ul style="list-style:none; padding:0;">
       ${q.odg.map((ans, i) => 
@@ -334,9 +334,9 @@ function prikaziKraj() {
   container.innerHTML = `<h2>Quiz finished!</h2>
     <div class="prikaziKraj">Your score: ${bodovi}/10</div>`;
 
-  let leaderboard = JSON.parse(localStorage.getItem('leaderboard_sport')) || [];
+  let leaderboard = JSON.parse(localStorage.getItem('leaderboard_general')) || [];
   leaderboard.push({ username, score: bodovi, total: 10});
-  localStorage.setItem('leaderboard_sport', JSON.stringify(leaderboard));
+  localStorage.setItem('leaderboard_general', JSON.stringify(leaderboard));
 
   setTimeout(() => {
     window.location.href = 'leaderboard.html';
