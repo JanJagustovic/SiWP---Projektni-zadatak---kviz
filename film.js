@@ -76,18 +76,30 @@ function provjera(pitanjeIndex, odgIndex) {
   }, 1000);
 }
 
-function prikaziKraj() {
-  const container = document.getElementById('quiz-container');
-  container.innerHTML = `
-    <h2>Quiz finished!</h2>
-    <div class = "prikaziKraj">
-      Your score: ${bodovi} / ${filmPitanje.length}
-    </div>`;
-}
-
 window.onload = function() {
-  const container = document.getElementById('quiz-container');
-  if (container) {
+  if (document.getElementById('quiz-container')) {
     prikaziPitanje(trenPitanje);
   }
 };
+
+let username = "";
+
+document.getElementById('login-form').onsubmit = function(e) {
+  e.preventDefault();
+  username = document.getElementById('username').value.trim();
+  if (username) {
+    document.getElementById('login-container').style.display = 'none';
+    document.getElementById('quiz-container').style.display = '';
+    prikaziPitanje(trenPitanje);
+  }
+};
+
+function prikaziKraj() {
+  const container = document.getElementById('quiz-container');
+  container.innerHTML = `<h2>Quiz finished!</h2>
+    <div class="prikaziKraj">Your score: ${bodovi} / ${filmPitanje.length}</div>`;
+
+  let leaderboard = JSON.parse(localStorage.getItem('leaderboard_film')) || [];
+  leaderboard.push({ username, score: bodovi, total: filmPitanje.length });
+  localStorage.setItem('leaderboard_film', JSON.stringify(leaderboard));
+}
