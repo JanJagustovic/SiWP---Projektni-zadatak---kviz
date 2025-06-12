@@ -1,4 +1,3 @@
-localStorage.clear();
 window.onload = function() {
   const sportDiv   = document.getElementById('sport-leaderboard');
   const filmDiv    = document.getElementById('film-leaderboard');
