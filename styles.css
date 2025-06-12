@@ -37,9 +37,10 @@ body {
 }
 
 .header {
+  font-family: 'Montserrat', sans-serif;
   background: green;
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -132,11 +133,12 @@ html, body {
 }
 
 .footer {
+  font-family: 'Montserrat', sans-serif;
   margin-top: auto;
   width: 100%;
   text-align: center;
   color: #fff;
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: #1E3A8A;
 }
 
@@ -153,6 +155,8 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
@@ -160,6 +164,8 @@ html, body {
   margin-bottom: 30px;
   color: #eaeaea;
   font-size: 1.5em;
+  text-align: center;
+  align-items: center;
   letter-spacing: 1px;
 }
 
@@ -203,36 +209,33 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 400px;
-  min-width: 320px;
+  text-align:center;
+  height: 80vh;
+  width: 60vw;
   margin: 40px auto;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.10);
   padding: 32px 24px;
-  max-width: 420px;
 }
 
 .prikaziKraj{
   font-size:1.2em;
   font-weight:bold;
-  margin-top:16px;
+  align-items: center;
 }
 
 #login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 400px;
-  min-width: 320px;
+  height: 60vh;
+  width: 60vw;
   margin: 40px auto;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.10);
   padding: 32px 24px;
-  max-width: 420px;
 }
 
 #login-form {
@@ -260,7 +263,6 @@ html, body {
   padding: 10px 28px;
   border-radius: 8px;
   border: none;
-  background: #22C55E;
   color: #fff;
   font-weight: bold;
   font-size: 1em;
