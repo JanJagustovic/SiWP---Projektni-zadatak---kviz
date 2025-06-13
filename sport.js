@@ -142,7 +142,7 @@ const sportPitanje = [
   {
     pitanje: "Who won the 2024 UEFA Champions League?",
     odg: ["Manchester City", "Real Madrid", "Bayern Munich", "Liverpool"],
-    tocno: 0
+    tocno: 1
   },
   {
     pitanje: "Which boxer was known for the 'Rumble in the Jungle' fight?",
